@@ -3,15 +3,15 @@ package com.eduhub.eduhub_backend.component;
 import org.springframework.stereotype.Component;
 
 @Component
-public class CourseService {
+public class Course {
     private String courseCode;
     private String subjectName;
     private int credits;
 
-    public CourseService(){
+    public Course(){
 
     }
-    public CourseService(String courseCode,String subjectName, int credits){
+    public Course(String courseCode, String subjectName, int credits){
         this.courseCode=courseCode;
         this.subjectName=subjectName;
         this.credits=credits;
