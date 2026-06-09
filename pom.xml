@@ -8,8 +8,13 @@
 		<version>4.0.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+ HEAD
 	<groupId>com.eduhub</groupId>
 	<artifactId>eduhub-backend</artifactId>
+
+	<groupId>com.example</groupId>
+	<artifactId>FirstApi</artifactId>
+ af8857d2968cdab665bb6ba7f90c83f28f906b62
 	<version>0.0.1-SNAPSHOT</version>
 	<name/>
 	<description/>
@@ -37,12 +42,14 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+HEAD
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+ af8857d2968cdab665bb6ba7f90c83f28f906b62
 			<artifactId>spring-boot-starter-webmvc-test</artifactId>
 			<scope>test</scope>
 		</dependency>
